@@ -5,7 +5,7 @@ def show_tasks(tasks):
         print("Список пуст")
     else:
         print(tasks)
-    # continue
+
 def tasks_append(tasks):
     x = input("Введите задачу которую нужно добавить:")
     tasks.append(x)
